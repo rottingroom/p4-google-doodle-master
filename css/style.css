@@ -1,14 +1,51 @@
 /* Stage */
 
 #stage {
-    background: gray;
+    background: none;
     height: 300px;
     width: 600px;
 }
 
-#stage #star {
+#stage #vcd {
     height: 100%;
     width: 100%;
+}
+
+.V {
+    fill:#fcb23d;
+}
+
+.C {
+    fill:#e64c3c;
+}
+
+.D {
+    fill:#2980ba;
+}
+
+.Vshadow {
+    fill: #fcb23d;
+}
+
+.Cshadow {
+    fill: #e64c3c;
+}
+
+.Dshadow {
+    fill: #2980ba;
+}
+
+.Vshadow,
+.Cshadow,
+.Dshadow {
+    opacity:0.59;
+}
+
+.stars {
+    fill:#fff;
+    stroke:#231f20;
+    stroke-miterlimit:10;
+    stroke-width:0.25px;
 }
 
 /* DO NOT EDIT BELOW THIS LINE */
